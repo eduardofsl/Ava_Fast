@@ -13,6 +13,9 @@
         android:theme="@style/Theme.TCC"
         tools:targetApi="31">
         <activity
+            android:name=".welcome"
+            android:exported="false" />
+        <activity
             android:name=".cadastro"
             android:exported="false" />
         <activity

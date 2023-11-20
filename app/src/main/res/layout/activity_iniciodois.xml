@@ -26,12 +26,12 @@
         android:layout_height="35dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="51dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="22dp"
         android:onClick="iniciotres"
-        android:text=""
+        android:text="proximo"
         android:visibility="visible"
-        tools:visibility="invisible" />
+        tools:visibility="visible" />
 
 
 </RelativeLayout>
