@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
 public class iniciodois extends AppCompatActivity {
 
     @Override
@@ -12,18 +13,30 @@ public class iniciodois extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_iniciodois);
 
-        // Encontra o botão "Ir para a próxima página"
-        Button button = findViewById(R.id.btn_2);
+        // Find the "Go to Next Page" button
+        Button btnNext = findViewById(R.id.btn_2);
 
-        // Define um ouvinte de clique no botão
-        button.setOnClickListener(new View.OnClickListener() {
+        // Set a click listener for the "Go to Next Page" button
+        btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Cria um Intent com a atividade de destino definida para NextActivity.class
+                // Create an Intent with the destination activity set to NextActivity.class
                 Intent intent = new Intent(iniciodois.this, iniciotres.class);
 
-                // Chama o método startActivity() para iniciar a NextActivity
+                // Call the startActivity() method to start the NextActivity
                 startActivity(intent);
+            }
+        });
+
+        // Find the "Go Back" button
+        Button btnBack = findViewById(R.id.back1);
+
+        // Set a click listener for the "Go Back" button
+        btnBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Finish the current activity to go back to the previous page
+                finish();
             }
         });
     }
