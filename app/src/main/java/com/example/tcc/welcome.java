@@ -5,23 +5,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
-
-import com.example.tcc.databinding.ActivityWelcomeBinding;
-import com.google.android.gms.auth.api.signin.GoogleSignInClient;
-
 public class welcome extends AppCompatActivity {
-
-    ActivityWelcomeBinding binding;
-    GoogleSignInClient googleSignInClient;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivityWelcomeBinding.inflate(getLayoutInflater());
-
-        View view = binding.getRoot();
-
         setContentView(R.layout.activity_welcome);
 
         // Encontra o botão "Ir para a próxima página"

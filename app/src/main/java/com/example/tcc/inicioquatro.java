@@ -21,7 +21,7 @@ public class inicioquatro extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Create an Intent with the destination activity set to NextActivity.class
-                Intent intent = new Intent(inicioquatro.this, welcome.class);
+                Intent intent = new Intent(inicioquatro.this, cadastro.class);
 
                 // Call the startActivity() method to start the NextActivity
                 startActivity(intent);
