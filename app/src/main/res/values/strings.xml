@@ -2,4 +2,6 @@
     <string name="app_name">TCC</string>
     <string name="voltar">Voltar</string>
     <string name="proximo">Proximo</string>
+    <string name="text_ou">ou</string>
+    <string name="continuar_com_google">Continuar com Google</string>
 </resources>
