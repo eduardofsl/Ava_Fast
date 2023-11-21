@@ -18,7 +18,8 @@
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="17dp"
         android:onClick="welcome"
-        android:text="proximo"
+        android:text="@string/proximo"
+        android:backgroundTint="#430000"
         android:visibility="visible"
         tools:visibility="visible" />
 
@@ -26,12 +27,13 @@
 
         android:id="@+id/back3"
         android:layout_width="104dp"
-        android:layout_height="37dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="277dp"
-        android:layout_marginBottom="21dp"
-        android:text="Voltar"
+        android:layout_marginEnd="255dp"
+        android:layout_marginBottom="18dp"
+        android:backgroundTint="#430000"
+        android:text="@string/voltar"
         android:visibility="visible"
         tools:visibility="visible" />
 

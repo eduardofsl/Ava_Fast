@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TCC</string>
+    <string name="voltar">Voltar</string>
+    <string name="proximo">Proximo</string>
 </resources>
