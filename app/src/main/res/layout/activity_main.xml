@@ -24,7 +24,8 @@
         android:text="@string/proximo"
         android:visibility="visible"
         tools:ignore="VisualLintButtonSize"
-        tools:visibility="visible" />
+        tools:visibility="visible"
+        />
 
     <TextView
         android:id="@+id/textView12"
