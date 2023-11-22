@@ -9,7 +9,6 @@
     tools:context=".MainActivity">
 
 
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -17,7 +16,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="281dp"
-        android:layout_marginBottom="270dp"
+        android:layout_marginBottom="358dp"
         android:text="@string/cadastro_r_pido"
         android:textColor="#FFFFFF" />
 
