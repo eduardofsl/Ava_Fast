@@ -24,4 +24,12 @@
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
     <string name="login">Login</string>
+    <string name="todo">TODO</string>
+    <string name="insira_seu_e_mail">Insira seu e-mail</string>
+    <string name="endere_o_de_e_mail">Endereço de e-mail</string>
+    <string name="n_mero_de_telefone">Número de Telefone</string>
+    <string name="insira_sua_senha">Insira sua Senha</string>
+    <string name="j_tem_login">Já tem Login?</string>
+    <string name="fazer_login">Fazer Login</string>
+    <string name="finalizar_cadastro">Finalizar Cadastro</string>
 </resources>
