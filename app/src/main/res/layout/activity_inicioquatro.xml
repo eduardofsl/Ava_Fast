@@ -17,7 +17,6 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="17dp"
-        android:onClick="welcome"
         android:text="@string/proximo"
         android:backgroundTint="#430000"
         android:visibility="visible"
@@ -37,7 +36,8 @@
         android:backgroundTint="#430000"
         android:text="@string/voltar"
         android:visibility="visible"
-        tools:visibility="visible" />
+        tools:visibility="visible"
+        tools:ignore="VisualLintButtonSize" />
 
     <TextView
         android:id="@+id/textView5"
@@ -56,7 +56,8 @@
         android:textAllCaps="true"
         android:textColor="#FFFFFF"
         android:textSize="34sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        tools:ignore="VisualLintBounds" />
 
     <TextView
         android:id="@+id/textView7"
@@ -73,7 +74,8 @@
         android:textAllCaps="true"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
 
     <TextView
         android:id="@+id/textView8"

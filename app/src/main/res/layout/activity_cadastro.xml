@@ -6,20 +6,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/cadastro"
-    tools:context=".cadastro"
+    tools:context=".MainActivity"
     tools:ignore="ExtraText">
 
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="148dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="14dp"
-        android:layout_marginEnd="234dp"
-        android:layout_marginBottom="305dp"
+        android:layout_marginEnd="281dp"
+        android:layout_marginBottom="373dp"
         android:text="@string/cadastro_r_pido"
         android:textColor="#FFFFFF" />
 
@@ -27,28 +25,21 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="457dp"
-        android:layout_marginEnd="340dp"
-        android:layout_marginBottom="245dp"
-        android:contentDescription="@string/todo"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        android:layout_marginEnd="346dp"
+        android:layout_marginBottom="294dp"
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        android:contentDescription="@string/todo" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="505dp"
-        android:layout_marginEnd="340dp"
-        android:layout_marginBottom="195dp"
+        android:layout_marginEnd="346dp"
+        android:layout_marginBottom="229dp"
         android:contentDescription="@string/todo"
         app:srcCompat="@android:drawable/ic_menu_call"
         app:tint="#FFFFFF" />
@@ -56,43 +47,37 @@
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
-        android:layout_height="45dp"
-        android:layout_alignParentStart="true"
+        android:layout_height="44dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="340dp"
-        android:layout_marginBottom="135dp"
+        android:layout_marginEnd="350dp"
+        android:layout_marginBottom="161dp"
         android:contentDescription="@string/todo"
         app:srcCompat="@android:drawable/ic_lock_lock"
-        app:tint="#FFFFFF"
-        tools:ignore="ImageContrastCheck" />
-
+        tools:ignore="ImageContrastCheck"
+        app:tint="#FFFFFF" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
+
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="337dp"
-        android:layout_marginEnd="23dp"
-        android:layout_marginBottom="140dp"
-        android:contentDescription="@string/todo"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="167dp"
         app:srcCompat="@android:drawable/ic_menu_view"
-        app:tint="#FFFFFF" />
+        app:tint="#FFFFFF"
+        android:contentDescription="@string/todo" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="275dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="70dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="240dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="284dp"
         android:autofillHints=""
         android:ems="10"
         android:inputType="textEmailAddress"
@@ -103,59 +88,59 @@
 
     <EditText
         android:id="@+id/editTextPhone"
-        android:layout_width="275dp"
+        android:layout_width="wrap_content"
+
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="70dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="185dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginBottom="224dp"
         android:autofillHints=""
         android:ems="10"
         android:inputType="phone"
-        android:minHeight="50dp"
+        android:minHeight="48dp"
         android:text="@string/n_mero_de_telefone"
         android:textColor="#FFFFFF"
         tools:ignore="LabelFor" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
-        android:layout_width="265dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="135dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginBottom="161dp"
         android:autofillHints=""
         android:ems="10"
         android:inputType="textPassword"
-        android:minHeight="60dp"
+        android:minHeight="48dp"
         android:text="@string/insira_sua_senha"
         android:textColor="#FFFFFF"
         tools:ignore="LabelFor" />
 
+
     <Button
-        android:id="@+id/btn_5"
-        android:layout_width="180dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+
+        android:layout_height="74dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="199dp"
-        android:layout_marginEnd="14dp"
-        android:layout_marginBottom="295dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="347dp"
         android:backgroundTint="#000000"
         android:text="@string/j_tem_login" />
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="190dp"
-        android:layout_height="120dp"
+        android:layout_width="192dp"
+
+        android:layout_height="118dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="19dp"
         android:clickable="true"
         android:contentDescription="@string/todo"
         app:srcCompat="@drawable/common_google_signin_btn_text_light"
@@ -166,6 +151,7 @@
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="53dp"
@@ -176,15 +162,13 @@
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
-        android:layout_height="79dp"
-        android:layout_alignParentStart="true"
+        android:layout_height="86dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="12dp"
         android:layout_marginEnd="216dp"
-        android:layout_marginBottom="39dp"
+        android:layout_marginBottom="30dp"
         android:backgroundTint="#430000"
-        android:text="@string/finalizar_cadastro" />
+        android:text="@string/finalizar_cadastro"/>
 
 
 </RelativeLayout>
