@@ -44,7 +44,8 @@
         android:textAllCaps="true"
         android:textColor="#FFFFFF"
         android:textSize="48sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
 
     <TextView
         android:id="@+id/textView13"
