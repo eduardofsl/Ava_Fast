@@ -28,7 +28,7 @@
         tools:ignore="VisualLintOverlap" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/edit_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -44,7 +44,7 @@
         tools:ignore="LabelFor,VisualLintOverlap" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/edit_senha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
