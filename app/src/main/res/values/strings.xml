@@ -34,4 +34,6 @@
     <string name="finalizar_cadastro">Finalizar Cadastro</string>
     <string name="lembrar_sempre">Lembrar sempre</string>
     <string name="entre_na_sua_conta">Entre na sua conta</string>
+    <string name="pesquisar_restaurantes">Pesquisar restaurantes</string>
+    <string name="restaurantes_melhor_avaliados">Restaurantes melhor avaliados</string>
 </resources>
